@@ -1,0 +1,12 @@
+let vatly;
+let hoahoc;
+let sinhhoc;
+vatly= prompt('Nhập điểm vật lý');
+hoahoc=prompt('Nhập điểm hóa học');
+sinhhoc=prompt('Nhập điểm sinh học');
+let diemly=parseFloat(vatly);
+let diemhoa=parseFloat(hoahoc);
+let diemsinh=parseFloat(sinhhoc);
+let diemtb;
+diemtb=(diemly+diemhoa+diemsinh)/3;
+document.write('Điểm trung bình ='+diemtb);
